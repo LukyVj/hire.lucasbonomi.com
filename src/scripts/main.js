@@ -48,9 +48,9 @@ $(document).ready(function() {
 
 
       function deploy() {
+        randomBackground();
 
         setTimeout(function() {
-          randomBackground();
           h1Display();
         }, 01)
 
