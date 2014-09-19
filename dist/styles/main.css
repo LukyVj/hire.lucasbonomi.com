@@ -1592,6 +1592,10 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased; }
 
+[class*="fa-"]:before {
+  -webkit-transform: scale(0.98);
+  transform: scale(0.98); }
+
 html, body {
   margin: 0;
   padding: 0;
@@ -1660,6 +1664,9 @@ body {
       .scene .scene__content h1:nth-child(2) {
         -webkit-animation: appearFade 1s ease 0.5s;
         animation: appearFade 1s ease 0.5s; }
+      @media all and (max-width: 560px) {
+        .scene .scene__content h1 {
+          font-size: 1.6em; } }
   .scene .scene__links {
     font-size: 2em;
     padding: 0;
@@ -1683,9 +1690,13 @@ body {
     .scene .scene__links a {
       color: inherit;
       margin: 0 2em;
-      opacity: 0.85; }
+      opacity: 0.85;
+      padding: 0.05em; }
       .scene .scene__links a:hover {
         opacity: 1; }
+      @media all and (max-width: 560px) {
+        .scene .scene__links a {
+          margin: 0 0.5em; } }
 
 @-webkit-keyframes appearFade {
   0% {

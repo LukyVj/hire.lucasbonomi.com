@@ -22,7 +22,11 @@ $(document).ready(function() {
         'dist/images/bg_17.jpg',
         'dist/images/bg_18.jpg',
         'dist/images/bg_19.jpg',
-        'dist/images/bg_20.jpg'
+        'dist/images/bg_20.jpg',
+        'dist/images/bg_21.jpg',
+        'dist/images/bg_22.jpg',
+        'dist/images/bg_23.jpg',
+        'dist/images/bg_24.jpg'
         ];
         
         var x = list.length;
