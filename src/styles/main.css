@@ -8,8 +8,8 @@
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url('../fonts/fontawesome-webfont.eot?v=4.2.0');
-  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
+  src: url('../../fonts/fontawesome-webfont.eot?v=4.2.0');
+  src: url('../../fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('../../fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'), url('../../fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('../../fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal; }
 
@@ -1660,32 +1660,6 @@ body {
       .scene .scene__content h1:nth-child(2) {
         -webkit-animation: appearFade 1s ease 0.5s;
         animation: appearFade 1s ease 0.5s; }
-  .scene .scene__links {
-    font-size: 2em;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    position: relative;
-    margin-top: -2em;
-    margin-bottom: 4em;
-    width: 100%;
-    text-transform: uppercase;
-    text-shadow: -2px 2px 0 rgba(0, 0, 0, 0.3);
-    font-family: 'Source sans Pro', 'Oxygen', sans-serif;
-    font-weight: bold;
-    opacity: 0;
-    -webkit-animation: appearFade 1s ease 1s;
-    animation: appearFade 1s ease 1s; }
-    .scene .scene__links a {
-      color: inherit;
-      margin: 0 2em;
-      opacity: 0.85; }
-      .scene .scene__links a:hover {
-        opacity: 1; }
 
 @-webkit-keyframes appearFade {
   0% {
